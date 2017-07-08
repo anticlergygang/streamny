@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/streamStyle.css">
+    <title>Streamny</title>
+</head>
+
+<body>
+    <div class="row no-gutters">
+        <div class="col-12">
+            <script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+            <video preload="auto" id="mainStreamPlayer" controls autoplay></video>
+        </div>
+    </div>
+    <div class="row no-gutters">
+        <div class="col-12">
+            <div id="chat">
+                <div class="input-group">
+                    <input id="message" type="text" class="form-control" style="background-color: black; border-color: lightgreen; color: lightgreen;"><span class="input-group-btn"><button id="sendMessage" type="button" class="btn btn-outline-success" style="background-color: black; border-color: lightgreen; color: lightgreen;">Send</button></span>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/js/streamScript.js"></script>
+</body>
+
+</html>

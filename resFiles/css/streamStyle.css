@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: lightgreen;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.input-group * {
+    background-color: black;
+    border-color: lightgreen;
+    color: lightgreen;
+    height: 9vmin;
+    font-size: 3vmax;
+}
+
+#mainStreamPlayer {
+    width: 100vw;
+}
+
+#navBar {
+	height: 10vh;
+}
